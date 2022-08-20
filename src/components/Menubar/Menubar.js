@@ -19,7 +19,6 @@ const Menubar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/" className='text-white'>HOME</Nav.Link>
-            <Nav.Link as={Link} to="/course" className='text-white'>COURSE</Nav.Link>
             { user ?
               <><NavDropdown className='text-white' title="Profile" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.3">Name</NavDropdown.Item>

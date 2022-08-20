@@ -5,22 +5,24 @@ import Form from 'react-bootstrap/Form';
 import { useForm } from "react-hook-form";
 import Spinner from 'react-bootstrap/Spinner';
 import './Login.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const [signInWithGoogle, user, loading] = useSignInWithGoogle(auth);
     const { register, formState: { errors }, handleSubmit } = useForm();
+    const navigate = useNavigate();
+    const location = useLocation();
+    let from = location.state?.from?.pathname || '/';
 
 
     const [
         signInWithEmailAndPassword,
         eUser,
         eLoading,
-        error,
       ] = useSignInWithEmailAndPassword(auth);
 
       if(eUser || user ) {
-        console.log(eUser || user);
+        navigate(from, { replace: true });
     }
 
     
