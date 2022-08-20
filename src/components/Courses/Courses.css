@@ -1,0 +1,25 @@
+.course-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #0E1133;
+}
+.course-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0E1133;
+}
+.course-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .course-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width: 420px) {
+    .course-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

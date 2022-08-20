@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "6300810754bda03cfc13098b",
+    "courseimg": "https://ng-educal.vercel.app/assets/img/course/course-1.jpg",
+    "coursename": "Art & Design",
+    "price": 270,
+    "des": "Become a product Manager learn the skills & job.",
+    "teachername": "Elon Gated",
+    "teacherimg": "https://ng-educal.vercel.app/assets/img/course/teacher/teacher-1.jpg",
+    "rating": 4.5
+  },
+  {
+    "_id": "6300810731fc87869553e818",
+    "courseimg": "https://ng-educal.vercel.app/assets/img/course/course-2.jpg",
+    "coursename": "Ux Design",
+    "price": 201,
+    "des": "Become a product Manager learn the skills & job.",
+    "teachername": "Brian Cumin",
+    "teacherimg": "https://ng-educal.vercel.app/assets/img/course/teacher/teacher-2.jpg",
+    "rating": 5
+  },
+  {
+    "_id": "6300810727360fcf8cfe0ce4",
+    "courseimg": "https://ng-educal.vercel.app/assets/img/course/course-3.jpg",
+    "coursename": "Development",
+    "price": 168,
+    "des": "Become a product Manager learn the skills & job.",
+    "teachername": "Samuel Serif",
+    "teacherimg": "https://ng-educal.vercel.app/assets/img/course/teacher/teacher-3.jpg",
+    "rating": 5
+  },
+  {
+    "_id": "63008107f41a71bbc70c5041",
+    "courseimg": "https://ng-educal.vercel.app/assets/img/course/course-4.jpg",
+    "coursename": "Marketing",
+    "price": 251,
+    "des": "Become a product Manager learn the skills & job.",
+    "teachername": "Barry Tone",
+    "teacherimg": "https://ng-educal.vercel.app/assets/img/course/teacher/teacher-4.jpg",
+    "rating": 5
+  },
+  {
+    "_id": "6300810732001a6f67576e07",
+    "courseimg": "https://ng-educal.vercel.app/assets/img/course/course-5.jpg",
+    "coursename": "Data Science",
+    "price": 219,
+    "des": "Become a product Manager learn the skills & job.",
+    "teachername": "Jim Séchen",
+    "teacherimg": "https://ng-educal.vercel.app/assets/img/course/teacher/teacher-5.jpg",
+    "rating": 2
+  }
+]
