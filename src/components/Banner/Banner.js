@@ -13,7 +13,7 @@ const Banner = () => {
                         <h2 className='hero-subtitle'>Online Tutorial From Top Instructor.</h2>
                         <h3 className='hero-description'>Meet university,and cultural institutions</h3>
                         <h3 className='hero-description mb-5'>who'll share their experience.</h3>
-                        <button className='btn btn-lg btn-danger'>View all course</button>
+                        <button className='btn btn-lg btn-info'>View all course</button>
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <img src={hero} alt="img"  className='hero-img'/>

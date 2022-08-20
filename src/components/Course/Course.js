@@ -1,9 +1,15 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { useNavigate } from 'react-router-dom';
 
 const Course = ({course}) => {
-    const {courseimg,coursename,price,des,teachername,teacherimg,rating} = course;
+    const { _id, courseimg,coursename,price,des,teachername,teacherimg,rating} = course;
+
+    const navigate = useNavigate();
+    const navigateToCourseDetails = id => {
+        navigate(`/course/${id}`)
+    }
     return (
         <Card>
       <Card.Img variant="top" src={courseimg} img/>
@@ -19,7 +25,7 @@ const Course = ({course}) => {
         </div>
         <div className='d-flex justify-content-between align-items-center'>
             <div className="card-title course">Price: ${price}</div>
-            <button className='btn btn-outline-info'>Know Details</button>
+            <button onClick={() => navigateToCourseDetails(_id)} className='btn btn-outline-info'>Know Details</button>
         </div>
       </Card.Body>
     </Card>

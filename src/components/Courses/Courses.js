@@ -9,7 +9,7 @@ const Courses = () => {
         .then(res => res.json())
         .then(data => setCourses(data))
 
-    },[])
+    },[]);
     return (
         <div>
             <div className="container mt-5 pt-5">
